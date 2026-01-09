@@ -13,40 +13,18 @@ Array.from(navToggle).forEach(btn => btn.addEventListener('click', () => {
 }))
 
 
-const categoryItems = document.querySelectorAll('.category-item')
+Array.from(document.querySelectorAll(".dropdown-btn")).forEach(btn => btn.addEventListener('click', () => {
+    btn.classList.toggle("rotated")
+    btn.nextElementSibling.classList.toggle("show")
+}))
 
+// Array.from(document.querySelectorAll(".dropdown-btn")).forEach((btn)=>{
+//     btn.addEventListener("click", ()=>{
+//         btn.classList.toggle("rotated")
+//         console.log(btn);
+        
+//     })
+// })
 
-
-const app = document.querySelector(".app")
-
-const loadPage = async (page) => {
-    const res = await fetch(page)
-    const data = await res.text()
-    // console.log(res);
-
-    app.innerHTML = data
-    // console.log(data);
-
-    Array.from(document.querySelectorAll(".table-box")).forEach((table) => {
-        table.addEventListener("click", () => {
-            loadPage("order/order.htm")
-
-        })
-    })
-
-    // // document.querySelector(".to-home").addEventListener("click", ()=>{
-    // //     console.log(654);
-
-    // // })
+function toggleSubMenu(btn) {
 }
-
-loadPage("home/home.htm")
-// loadPage("order/order.htm")
-
-app.addEventListener("click", (e) => {
-    console.log("e.target", e.target.innerHTML);
-    if (e.target.innerHTML == "Save") {
-
-        loadPage("home/home.htm")
-    }
-})
