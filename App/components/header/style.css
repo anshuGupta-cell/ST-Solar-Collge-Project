@@ -1,0 +1,15 @@
+/* Header  */
+.primary-header {
+    display: flex;
+    align-items: center;
+    padding: .5em 1em;
+    font-size: var(--fs-primary-heading);
+    font-family: var(--ff-primary-heading);
+    font-weight: var(--fw-bold);
+    color: var(--clr-accent-400);
+    background: var(--clr-neutral-100);
+
+    a {
+        text-decoration: none;
+    }
+}

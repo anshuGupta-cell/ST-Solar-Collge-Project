@@ -406,30 +406,16 @@ textarea:not([rows]) {
 
 
 /* Layout */
-
 body {
     font-size: var(--fs-body);
     font-family: var(--ff-body);
     color: var(--clr-primary-400);
-    /* background: var(--clr-neutral-150); */
-    display: grid;
-    grid-template-areas:
-        "header header"
-        "primary-navigation main"
-    ;
+    background: var(--clr-neutral-150);
+}
+
+.layout{
+  display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto 1fr;
-
-}
-
-.primary-header {
-    grid-area: header;
-}
-
-.primary-navigation {
-    grid-area: primary-navigation;
-}
-
-.main {
-    grid-area: main;
+    grid-template-rows: 1fr;
+    align-items: start;
 }

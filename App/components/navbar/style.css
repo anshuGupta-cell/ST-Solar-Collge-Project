@@ -1,20 +1,4 @@
 
-/* Header  */
-.primary-header {
-    display: flex;
-    align-items: center;
-    padding: .5em 1em;
-    font-size: var(--fs-primary-heading);
-    font-family: var(--ff-primary-heading);
-    font-weight: var(--fw-bold);
-    color: var(--clr-accent-400);
-    background: var(--clr-neutral-100);
-
-    a {
-        text-decoration: none;
-    }
-}
-
 /* Navigation */
 .nav-toggle {
     cursor: pointer;
@@ -24,11 +8,11 @@
 }
 
 .primary-navigation {
-    position: absolute;
+    position: fixed;
     top: 0;
-    height: 100%;
-    width: 16rem;
-    padding: .5em 1em;
+    height: 100dvh;
+    width: 15rem;
+    padding: .5em;
     background: var(--clr-accent-100);
     transition: left .25s linear;
     left: -100%;
@@ -38,6 +22,7 @@
     ul {
         list-style: none;
     }
+
 }
 
 .primary-navigation[data-visible] {
@@ -71,10 +56,11 @@
 
 }
 
-.primary-navigation nav a:hover,
-.primary-navigation nav .dropdown-btn:hover{
+.primary-navigation nav a:not(.nav-top a):hover,
+.primary-navigation nav .dropdown-btn:hover {
     background: var(--clr-accent-200);
 }
+
 
 .dropdown-btn {
     display: flex;
@@ -86,7 +72,8 @@
     border: 0;
     font: inherit;
     cursor: pointer;
-    img{
+
+    img {
         transition: 300s ease-in-out;
     }
 }
@@ -98,7 +85,7 @@
 .nav-items {
     display: grid;
     gap: .25em;
-    padding: .5rem;
+    padding: .15rem;
     cursor: pointer;
 
     a {
@@ -111,6 +98,7 @@
         width: 100%;
     } */
 }
+
 .nav-top {
     display: flex;
     justify-content: space-between;
@@ -119,30 +107,35 @@
 
 .sub-menu {
     display: grid;
-    grid-template-rows: 0fr ;
+    grid-template-rows: 0fr;
     transition: 300s ease-in-out;
     padding-left: 2em;
+
     li {
         display: flex;
+
         a {
             text-decoration: none;
         }
     }
-    div{
+
+    div {
         overflow: hidden;
     }
 }
 
-.sub-menu.show{
-grid-template-rows: 1fr;
+.sub-menu.show {
+    grid-template-rows: 1fr;
 }
 
-.rotated img{
+.rotated img {
     rotate: 180deg;
 }
+
 .active {
     background: var(--clr-accent-300);
     color: var(--clr-primary-400);
+
 }
 
 @media (width >=720px) {
@@ -155,4 +148,3 @@ grid-template-rows: 1fr;
         display: none;
     }
 }
-
