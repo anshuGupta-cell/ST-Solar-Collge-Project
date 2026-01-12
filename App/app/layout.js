@@ -2,7 +2,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar/Navbar.js";
 
 
 // const geistSans = Geist({
@@ -16,23 +16,22 @@ import Navbar from "@/components/Navbar";
 // });
 
 export const metadata = {
-  title: "Anshu's Portfolio",
+  title: "Virtual Solar Power System - web based simulation",
   description: "The portfolio of Anshu Gupta",
 };
 
 export default function RootLayout({ children }) {
 
-  
 
   return (
     <html lang="en" className="">
-      <body className={` antialiased dark:bg-darkTheme dark:text-white/80`}>
+      <body className={``}>
 
         <ToastContainer />
         <Navbar />
-
-        {children}
-
+        <main className="main p-2 ">
+          {children}
+        </main>
       </body>
     </html>
   )

@@ -38,6 +38,9 @@ module.exports = {
         },
         ".res-grid-200": {
           "grid-template-columns": "repeat(auto-fit, minmax(200px, 1fr))"
+        },
+        ".res-grid-280": {
+          "grid-template-columns": "repeat(auto-fit, minmax(280px, 1fr))"
         }
       })
     }
