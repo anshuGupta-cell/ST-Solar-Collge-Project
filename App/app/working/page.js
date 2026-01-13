@@ -2,9 +2,9 @@ import React from 'react'
 
 const Working = () => {
     return (
-        <div>
+        <div className='flex flex-col gap-3'>
             <h1 className='text-2xl font-semibold'>Working principle of solar PV system</h1>
-            <section>
+            <section className='card '>
                 <ul>
                     <li>
                         <span className='font-semibold'>Photoelectric effect - </span>
@@ -24,12 +24,12 @@ const Working = () => {
                     </li>
                 </ul>
             </section>
-            <section>
-                <h2>Formula</h2>
+            <section className='card '>
+                <h2 className='text-xl font-semibold'>Formula</h2>
                 <p>Power = Intensity x Area x Efficiency</p>
             </section>
-            <section>
-                <h2>Diagram</h2>
+            <section className='card '>
+                <h2 className='text-xl font-semibold'>Diagram</h2>
                 <img src='/profile pic.png' />
             </section>
         </div>

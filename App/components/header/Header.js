@@ -9,7 +9,7 @@ const Header = ({primaryNav}) => {
 
     return (
         <header className="primary-header">
-            <div className="flex items-center gap-2">
+            <div className="header-wrapper">
                 <button onClick={toggleNav} className="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
                     <span className="visullay-hidden">Menu</span>
                     <img className="icon-hamburger | icon" src="/svg/bars-solid.svg" alt="" aria-hidden="true" />
@@ -18,8 +18,8 @@ const Header = ({primaryNav}) => {
                     <h1>Vertual Solar Power</h1>
                     <h1>System - Web Base Simulation</h1>
                 </a>
-
             </div>
+            
             {/* <div className="flex items-center">
                 </div> */}
         </header>

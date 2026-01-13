@@ -2,7 +2,7 @@ import React from 'react'
 
 const SystemDiagram = () => {
   return (
-    <div className='grid res-grid-280 p-2 gap-4'>
+    <div className='grid res-grid-280 p-2 gap-4 card'>
         <img className='rounded-lg object-cover' src='/profile pic.png' alt='labelled solar PV diagram'/>
         <section>
             <h1 className='text-xl font-semibold'>System Working</h1>

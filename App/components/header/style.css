@@ -6,10 +6,24 @@
     font-size: var(--fs-primary-heading);
     font-family: var(--ff-primary-heading);
     font-weight: var(--fw-bold);
-    color: var(--clr-accent-400);
-    background: var(--clr-neutral-100);
+    color: var(--clr-accent-400);    
+    background: hsl(from var(--clr-accent-300) h s 90) ;
+backdrop-filter: calc(10px);
+
+position: sticky;
+top: 0;
 
     a {
         text-decoration: none;
     }
+}
+
+.header-wrapper {
+    display: flex;
+    place-items: center;
+    gap: .5em;
+
+    border-radius: 100vmax;
+    background: hsl(from var(--clr-neutral-100) h s l) ;
+    padding: .5rem 1.5rem;
 }
