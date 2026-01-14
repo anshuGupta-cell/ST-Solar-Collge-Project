@@ -6,13 +6,13 @@ const Advantages = () => {
     <div>
       <section className='card '>
         <h1 className='text-2xl font-semibold'>Disadvantages of Solar PV System</h1>
-        <ul className='px-6 my-2'>
+        <ol type='1' className='list-decimal pl-8 my-2 gap-2 flex flex-col'>
           <li><span>High initial cost</span><p>The initial installation cost of a solar PV system is high.</p></li>
           <li><span>Weather dependent</span><p>Solar power generations depends on sunlight and weather conditions.</p></li>
           <li><span>Large area required</span><p>Large space is required for installing solar panels.</p></li>
           <li><span>Energy storage problem</span><p>Batteries are required to store energy, which increases system cost.</p></li>
 
-        </ul>
+        </ol>
       </section>
 
       <section className="flex justify-between my-16">

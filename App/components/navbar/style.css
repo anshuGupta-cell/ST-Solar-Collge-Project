@@ -17,7 +17,7 @@
     transition: left .25s linear;
     left: -100%;
     border-right: 1px solid var(--clr-neutral-150);
-
+z-index: 100;
     /* display: none; */
     ul {
         list-style: none;

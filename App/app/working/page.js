@@ -6,7 +6,7 @@ const Working = () => {
         <div className='flex flex-col gap-3'>
             <h1 className='text-2xl font-semibold'>Working principle of solar PV system</h1>
             <section className='card '>
-                <ul>
+                <ol type='1' className='list-decimal pl-8 my-2 gap-2 flex flex-col'>
                     <li>
                         <span className='font-semibold'>Photoelectric effect - </span>
                         <p>When Sunlight falls on the solar cell, photons transfer energy to electrons.</p>
@@ -23,7 +23,7 @@ const Working = () => {
                         <span className='font-semibold'>Photoelectric effect - </span>
                         <p>When Sunlight falls on the solar cell, photons transfer energy to electrons</p>
                     </li>
-                </ul>
+                </ol>
             </section>
             <section className='card '>
                 <h2 className='text-xl font-semibold'>Formula</h2>

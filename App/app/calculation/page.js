@@ -26,16 +26,16 @@ const Calculation = () => {
           <h2 className='text-xl font-semibold'>Input values</h2>
           <form className='flex flex-col gap-2' onSubmit={(e) => handleCalculate(e)}>
             <label className='flex flex-col gap-1 cursor-pointer'>
-              <span>Sunlight Intensity ( w/m<sup className='z-[-1]'>2</sup> ): </span>
-              <input className='text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 ' value={sunlightIntensity || ""} onChange={(e) => setSunlightIntensity(e.target.value)} placeholder='Enter Sunlight Intensity' />
+              <span>Sunlight Intensity ( w/m<sup className=''>2</sup> ): </span>
+              <input className='text-black rounded-full focus:outline-green-500 py-2 px-3 bg-slate-100 ' value={sunlightIntensity || ""} onChange={(e) => setSunlightIntensity(e.target.value)} placeholder='Enter Sunlight Intensity' />
             </label>
             <label className='flex flex-col gap-1 cursor-pointer'>
-              <div>Panel Area ( m<sup className='z-[-1]'>2</sup> ): </div>
-              <input className='text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 ' value={panelArea || ""} onChange={(e) => setPanelArea(e.target.value)} placeholder='Enter Sunlight Intensity' />
+              <div>Panel Area ( m<sup className=''>2</sup> ): </div>
+              <input className='text-black rounded-full focus:outline-green-500 py-2 px-3 bg-slate-100 ' value={panelArea || ""} onChange={(e) => setPanelArea(e.target.value)} placeholder='Enter Sunlight Intensity' />
             </label>
             <label className='flex flex-col gap-1 cursor-pointer'>
               <span>Panel Efficiency ( % ): </span>
-              <input className='text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 ' value={panelEfficiency || ""} onChange={(e) => setPanelEfficiency(e.target.value)} placeholder='Enter Panel Efficiency' />
+              <input className='text-black rounded-full focus:outline-green-500 py-2 px-3 bg-slate-100 ' value={panelEfficiency || ""} onChange={(e) => setPanelEfficiency(e.target.value)} placeholder='Enter Panel Efficiency' />
             </label>
             <button className='button'>Calculate Power</button>
           </form>

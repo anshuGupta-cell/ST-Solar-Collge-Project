@@ -1,0 +1,78 @@
+[1/14, 20:47] S T: *Advantages*
+1. *Renewable & Sustainable Energy*
+Solar PV uses sunlight, an unlimited and renewable energy source, helping reduce dependence on fossil fuels.
+2. *Eco-Friendly*
+It produces electricity without air pollution, greenhouse gases, or noise, supporting a cleaner environment.
+3. *Low Electricity Bills*
+Solar panels significantly reduce monthly electricity costs and can even generate surplus power.
+4. *Low Maintenance*
+Solar PV systems require minimal maintenance and have a long operational life (25–30 years).
+5. *Energy Independence*
+Users become less dependent on the power grid and rising electricity prices.
+6. *Easy Installation*
+Solar PV systems are easy to install on rooftops, open land, or commercial buildings.
+7. *Scalable & Flexible*
+Systems can be expanded easily according to future energy needs.
+8. *Suitable for Remote Areas*
+Provides electricity in rural and off-grid locations where conventional power is unavailable.
+9.*Government Support & Subsidies*
+Many governments offer subsidies, tax benefits, and incentives for solar installations.
+10. *Increases Property Value*
+Buildings with solar PV systems have higher market value and better energy ratings.
+
+
+[1/14, 20:49] S T: *Disadvantages*
+1. *High Initial Cost*
+The upfront cost of solar panels, inverters, and installation is relatively high.
+2. *Weather Dependent*
+Solar power generation depends on sunlight and is less effective on cloudy or rainy days.
+3. *No Power at Night*
+Solar PV systems do not generate electricity at night without battery storage.
+4. *Requires Large Space*
+Large systems need sufficient roof or land area for proper installation.
+5. *Energy Storage is Expensive*
+Batteries increase the overall system cost and require periodic replacement.
+6. *Lower Efficiency*
+Solar panels have limited efficiency compared to conventional power sources.
+7. *Installation Location Matters*
+Shadows from trees or buildings can reduce power output significantly.
+8. *Inverter Replacement Cost*
+Inverters have a shorter lifespan than panels and may need replacement after 8–12 years.
+
+
+[1/14, 21:16] S T: *Application*
+1. *Residential Power Supply*
+Used in homes for lighting, fans, TVs, refrigerators, and other household appliances.
+2. *Commercial Buildings*
+Installed in offices, malls, hotels, and hospitals to reduce electricity costs.
+3. *Industrial Power Generation*
+Provides power for factories, warehouses, and small manufacturing units.
+4. *Rural & Off-Grid Electrification*
+Supplies electricity to remote villages where grid power is unavailable.
+5. *Solar Street Lighting*
+Used for street lights, highways, parking areas, and public spaces.
+6. *Water Pumping Systems*
+Solar PV runs irrigation pumps and drinking water supply systems in agriculture.
+7. *Telecommunication Systems*
+Used in mobile towers, relay stations, and remote communication networks.
+8. *Educational Institutions*
+Provides clean energy to schools, colleges, and research centers.
+9. *Healthcare Facilities*
+Used in hospitals and clinics for reliable power to medical equipment.
+10. *Portable & Small Devices*
+Used in solar chargers, calculators, lamps, and portable power systems.
+
+
+[1/14, 21:45] S T: *Working Steps:*
+1.*Sunlight Absorption*
+Solar panels absorb sunlight falling on their surface.
+2.*Generation of Electron–Hole Pairs*
+The absorbed light energy excites electrons in the semiconductor material (usually silicon).
+3.*Charge Separation*
+The built-in electric field at the p–n junction separates electrons and holes.
+4.*Flow of Electric Current*
+Electrons move through the external circuit, producing DC electricity.
+5.*Power Conversion*
+The DC power is converted into AC power using an inverter for practical use.
+6.*Utilization / Storage*
+The generated electricity is used directly, stored in batteries, or supplied to the grid.

@@ -70,7 +70,7 @@ const Navbar = ({primaryNav}) => {
                         <Link className={`${pathName === '/graph' ? 'active' : ''}`} href="/graph"><span>Graph</span></Link>
                     </li>
                     <li className="nav-items">
-                        <Link className={`${pathName === '/working' ? 'active' : ''}`} href="/working"><span>Working Principal</span></Link>
+                        <Link className={`${pathName === '/working' ? 'active' : ''}`} href="/working"><span>Working Principle</span></Link>
                     </li>
                     <li className="nav-items">
                         <Link className={`${pathName === '/applications' ? 'active' : ''}`} href="/applications"><span>Applications</span></Link>

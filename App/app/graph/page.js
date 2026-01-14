@@ -18,7 +18,7 @@ const Graph = () => {
           <span>Calculation</span>
         </Link>
         <Link className={` button `} href="/working">
-          <span>Working Principal</span>
+          <span>Working Principle</span>
           <img className="icon" data-type="inverted" src="/svg/arrow-right-02-stroke-rounded.svg" />
         </Link>
       </section>

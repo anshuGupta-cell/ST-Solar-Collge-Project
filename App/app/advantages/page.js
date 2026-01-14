@@ -6,12 +6,12 @@ const Advantages = () => {
     <div>
         <section className='card'>
             <h1 className='text-2xl font-semibold'>Advantages of Solar PV System</h1>
-            <ul  className='px-6 my-2'>
+            <ol type='1' className='list-decimal pl-8 my-2 gap-2 flex flex-col'>
                 <li>Renewable sources of energy.</li>
                 <li>Np pollution.</li>
                 <li>Low maintenance.</li>
                 <li>Free energy from the Sun.</li>
-            </ul>
+            </ol>
         </section>
         <section className="flex justify-between my-16">
         <Link className={` button `} href="/applications">
