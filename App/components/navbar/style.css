@@ -103,6 +103,9 @@
     display: flex;
     justify-content: space-between;
     font-weight: var(--fw-bold);
+    a{
+        font-size: var(--fs-500);
+    }
 }
 
 .sub-menu {
@@ -135,7 +138,9 @@
 .active {
     background: var(--clr-accent-300);
     color: var(--clr-primary-400);
+    font-weight: bolder;
 
+    box-shadow: 5px 5px 5px 2px var(--clr-neutral-150);
 }
 
 @media (width >=720px) {

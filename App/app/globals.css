@@ -425,5 +425,15 @@ body {
   background: var(--clr-accent-100);
   border-radius: .5em;
   padding: .5rem;
+  box-shadow: 5px 5px 0px 0px  var(--clr-neutral-200);
   /* background: red; */
+  transition: 300ms ease-in-out;
+  img:hover {
+    transition: 300ms ease-in-out;
+    transform: scale(1.05);
+    transform: rotateX(33deg) rotateY(45deg) rotateZ(-5deg);
+  }
+}
+.card:hover{
+  transform: scale(1.01);
 }
