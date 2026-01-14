@@ -5,27 +5,11 @@ body {
     font-family: var(--ff-body);
     color: var(--clr-primary-400);
     background: var(--clr-neutral-150);
-    display: grid;
-    grid-template-areas:
-        "header header"
-        "primary-navigation main"
-    ;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto 1fr;
-
+ 
+    /* min-height: 100vh; */
 }
 
-.primary-header {
-    grid-area: header;
-}
 
-.primary-navigation {
-    grid-area: primary-navigation;
-}
-
-.main {
-    grid-area: main;
-}
 
 /* Header  */
 .primary-header {
@@ -43,6 +27,14 @@ body {
     }
 }
 
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    background: red;
+    align-items: start;
+}
+
 /* Navigation */
 .nav-toggle {
     cursor: pointer;
@@ -52,20 +44,17 @@ body {
 }
 
 .primary-navigation {
-    position: absolute;
+    position: fixed;
     top: 0;
-    height: 100%;
     width: 16rem;
     padding: .5em 1em;
     background: var(--clr-accent-100);
-    transition: left .25s linear;
     left: -100%;
     border-right: 1px solid var(--clr-neutral-150);
 
-    /* display: none; */
-    ul {
-        list-style: none;
-    }
+    transition: 300ms ease-in-out;
+    background: hotpink;
+
 }
 
 .primary-navigation[data-visible] {
@@ -100,7 +89,7 @@ body {
 }
 
 .primary-navigation nav a:hover,
-.primary-navigation nav .dropdown-btn:hover{
+.primary-navigation nav .dropdown-btn:hover {
     background: var(--clr-accent-200);
 }
 
@@ -114,7 +103,8 @@ body {
     border: 0;
     font: inherit;
     cursor: pointer;
-    img{
+
+    img {
         transition: 300s ease-in-out;
     }
 }
@@ -139,6 +129,7 @@ body {
         width: 100%;
     } */
 }
+
 .nav-top {
     display: flex;
     justify-content: space-between;
@@ -147,26 +138,31 @@ body {
 
 .sub-menu {
     display: grid;
-    grid-template-rows: 0fr ;
+    grid-template-rows: 0fr;
     transition: 300s ease-in-out;
     padding-left: 2em;
+
     li {
         display: flex;
+
         a {
             text-decoration: none;
         }
     }
-    div{
+
+    div {
         overflow: hidden;
     }
 }
 
-.sub-menu.show{
-grid-template-rows: 1fr;
+.sub-menu.show {
+    grid-template-rows: 1fr;
 }
-.rotated img:last-child{
+
+.rotated img {
     rotate: 180deg;
 }
+
 .active {
     background: var(--clr-accent-300);
     color: var(--clr-primary-400);
@@ -175,6 +171,7 @@ grid-template-rows: 1fr;
 @media (width >=720px) {
     .primary-navigation {
         position: sticky;
+        top: 0;
     }
 
     .nav-toggle {

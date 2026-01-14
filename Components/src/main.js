@@ -14,8 +14,8 @@ Array.from(navToggle).forEach(btn => btn.addEventListener('click', () => {
 
 
 Array.from(document.querySelectorAll(".dropdown-btn")).forEach(btn => btn.addEventListener('click', () => {
-    btn.classList.toggle("rotated")
-    btn.nextElementSibling.classList.toggle("show")
+    btn.classList.toggleAttribute("rotated")
+    btn.nextElementSibling.classList.toggleAttribute("show")
 }))
 
 // Array.from(document.querySelectorAll(".dropdown-btn")).forEach((btn)=>{
