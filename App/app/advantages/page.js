@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Advantages = () => {
@@ -12,6 +13,16 @@ const Advantages = () => {
                 <li>Free energy from the Sun.</li>
             </ul>
         </section>
+        <section className="flex justify-between my-16">
+        <Link className={` button `} href="/applications">
+          <img className="icon" data-type="inverted" src="/svg/arrow-left-02-stroke-rounded.svg" />
+          <span>Applications</span>
+        </Link>
+        <Link className={` button `} href="/disadvantages">
+          <span>Disadvantages</span>
+          <img className="icon" data-type="inverted" src="/svg/arrow-right-02-stroke-rounded.svg" />
+        </Link>
+      </section>
     </div>
   )
 }

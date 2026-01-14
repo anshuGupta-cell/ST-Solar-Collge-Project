@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Working = () => {
@@ -31,6 +32,16 @@ const Working = () => {
             <section className='card '>
                 <h2 className='text-xl font-semibold'>Diagram</h2>
                 <img src='/profile pic.png' />
+            </section>
+            <section className="flex justify-between my-16">
+                <Link className={` button `} href="/graph">
+                    <img className="icon" data-type="inverted" src="/svg/arrow-left-02-stroke-rounded.svg" />
+                    <span>Graph</span>
+                </Link>
+                <Link className={` button `} href="/applications">
+                    <span>Applications</span>
+                    <img className="icon" data-type="inverted" src="/svg/arrow-right-02-stroke-rounded.svg" />
+                </Link>
             </section>
         </div>
     )

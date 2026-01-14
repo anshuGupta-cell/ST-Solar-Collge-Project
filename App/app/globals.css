@@ -300,6 +300,11 @@ textarea:not([rows]) {
   font-size: var(--fs-button);
   line-height: 1;
   box-shadow: 0 1em 1em -1em var(--clr-accent-500);
+
+  transition: 100ms ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: .5em;
 }
 
 .button[data-type="primary-200"] {

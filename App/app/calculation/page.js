@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import React, { useState } from 'react'
 
 const Calculation = () => {
@@ -60,6 +61,16 @@ const Calculation = () => {
       <section className='py-4 card'>
         <h2 className='text-xl font-semibold'>Explanation</h2>
         <p>The user enters the required input values. Such as sunlight intensity, panel area and efficiency. Based on these inputs the system calculates the output power and total energy generated. This helps in understanding solar power calculation practically.</p>
+      </section>
+      <section className="flex justify-between my-16">
+        <Link className={` button `} href="/system-diagram">
+          <img className="icon" data-type="inverted" src="/svg/arrow-left-02-stroke-rounded.svg" />
+          <span>Syatem Diagram</span>
+        </Link>
+        <Link className={` button `} href="/graph">
+          <span>Graph</span>
+          <img className="icon" data-type="inverted" src="/svg/arrow-right-02-stroke-rounded.svg" />
+        </Link>
       </section>
     </div>
   )
