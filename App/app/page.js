@@ -9,8 +9,8 @@ export default function App() {
     < div className="flex flex-col gap-3">
       <section className="py-4 grid res-grid-280 gap-4 card">
         <div className="grid gap-2 items-start">
-          <h1 className="text-2xl font-semibold text-accent-400">Virtual Solar Power System</h1>
-          <p>The website is a virtual solar power designed to explain the basic working and calculation of a solar power system in a simple and interactive way it helps users understand how solar energy is converted into electrical energy using solar panels.</p>
+          <h1 className="text-2xl font-semibold text-accent-400 text-center">Virtual Solar Power System</h1>
+          <p className="text-center">The website is a virtual solar power designed to explain the basic working and calculation of a solar power system in a simple and interactive way it helps users understand how solar energy is converted into electrical energy using solar panels.</p>
         </div>
         <div><img className="rounded-lg" src="/profile pic.png" alt="Simple solar panel image"/></div>
       </section>
