@@ -469,8 +469,7 @@ body {
 
 .table-header {
   background: var(--clr-accent-200);
-  position: sticky;
-  top: 0;
+
 }
 
 

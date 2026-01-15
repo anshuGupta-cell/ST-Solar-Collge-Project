@@ -37,7 +37,7 @@ const TableInput = (props) => {
 
 
     return (
-        <div className='max-w-[30rem]' onSubmit={(e) => generateGraph(e)}>
+        <form className='max-w-[30em]' onSubmit={(e) => generateGraph(e)}>
             <div className="ml-0   gap-2">
                 <h2 className="text-wrap text-xl font-semibold">Graph Data</h2>
                 <table className="border rounded-lg py-1 graph-table">
@@ -51,15 +51,15 @@ const TableInput = (props) => {
                     <tbody>
                         {links && links.map((item, i) => (
                             <tr className="opacity-95 relative" key={i} >
-                                <td className='p-1 ' data-cell="Power Output">
-                                    <input name="power" className="w-[90%] text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 dark:bg-slate-600 dark:text-white/80" type="number" value={item.power || ""} onChange={(e) => handleChange(i, e.target.value, item.sunlightIntensity)} placeholder="Enter power" required />
+                                <td className=' ' data-cell="Power Output">
+                                    <input name="power" className="w-[80%] text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 dark:bg-slate-600 dark:text-white/80" type="number" value={item.power || ""} onChange={(e) => handleChange(i, e.target.value, item.sunlightIntensity)} placeholder="Enter power" required />
                                 </td>
 
-                                <td className='p-1 ' data-cell="Sunlight Intensity">
-                                    <input name="sunlightIntensity" className="w-[90%] text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 dark:bg-slate-600 dark:text-white/80" type="number" value={item.sunlightIntensity || ""} onChange={(e) => handleChange(i, item.power, e.target.value)} placeholder="Enter sunlight intensity" required />
+                                <td className=' ' data-cell="Sunlight Intensity">
+                                    <input name="sunlightIntensity" className="w-[80%] text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 dark:bg-slate-600 dark:text-white/80" type="number" value={item.sunlightIntensity || ""} onChange={(e) => handleChange(i, item.power, e.target.value)} placeholder="Enter sunlight intensity" required />
                                 </td>
 
-                                <td className='p-1 ' data-cell=" ">
+                                <td className=' ' data-cell=" ">
                                     <button type="button" disabled={links.length == 1} className="py-1" onClick={() => removeLink(i)}>
                                         <div className="btn transform-bg hover:bg-slate-200 p-1 rounded-full">
                                             <img className="dark:invert object-cover rounded-full w-[0.8rem] h-[0.8rem]" src="/svg/xmark-regular.svg" alt="remove" />
@@ -76,7 +76,7 @@ const TableInput = (props) => {
             <div className="flex justify-end ">
                 <button type="submit" className="text-white bg-purple-700 px-3 active:scale-95 py-2 rounded-xl shadow-pink-600 shadow-md">Generate Graph</button>
             </div>
-        </div>
+        </form>
     )
 }
 
