@@ -300,10 +300,10 @@ textarea:not([rows]) {
   font-size: var(--fs-button);
   line-height: 1;
   box-shadow: 0 1em 1em -1em var(--clr-accent-500);
-
   transition: 100ms ease-in-out;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: .5em;
 }
 
@@ -430,10 +430,16 @@ body {
 .card {
   background: var(--clr-accent-100);
   border-radius: .5em;
-  padding: .5rem;
+  padding: 1rem;
   box-shadow: 5px 5px 0px 0px var(--clr-neutral-200);
   /* background: red; */
   transition: 300ms ease-in-out;
+
+  img {
+    max-height: 80vh;
+    margin: auto;
+    border-radius: 1rem;
+  }
 
   img:hover {
     transition: 300ms ease-in-out;

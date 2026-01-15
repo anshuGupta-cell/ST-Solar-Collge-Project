@@ -27,7 +27,7 @@ const Working = () => {
             </section>
             <section className='card '>
                 <h2 className='text-xl font-semibold'>Diagram</h2>
-                <img src='/profile pic.png' />
+                <img className='rounded-xl' src='/img/solar - working diagram.jpg' />
             </section>
             <section className="flex justify-between my-16">
                 <Link className={` button `} href="/graph">
