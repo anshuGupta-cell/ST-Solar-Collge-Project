@@ -52,11 +52,11 @@ const TableInput = (props) => {
                         {links && links.map((item, i) => (
                             <tr className="opacity-95 relative" key={i} >
                                 <td className='p-1 ' data-cell="Power Output">
-                                    <input name="power" className="w- text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 dark:bg-slate-600 dark:text-white/80" type="number" value={item.power || ""} onChange={(e) => handleChange(i, e.target.value, item.sunlightIntensity)} placeholder="Enter power" required />
+                                    <input name="power" className="w-[90%] text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 dark:bg-slate-600 dark:text-white/80" type="number" value={item.power || ""} onChange={(e) => handleChange(i, e.target.value, item.sunlightIntensity)} placeholder="Enter power" required />
                                 </td>
 
                                 <td className='p-1 ' data-cell="Sunlight Intensity">
-                                    <input name="sunlightIntensity" className="w text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 dark:bg-slate-600 dark:text-white/80" type="number" value={item.sunlightIntensity || ""} onChange={(e) => handleChange(i, item.power, e.target.value)} placeholder="Enter sunlight intensity" required />
+                                    <input name="sunlightIntensity" className="w-[90%] text-black rounded-full focus:outline-green-500 py-1 px-3 bg-slate-100 dark:bg-slate-600 dark:text-white/80" type="number" value={item.sunlightIntensity || ""} onChange={(e) => handleChange(i, item.power, e.target.value)} placeholder="Enter sunlight intensity" required />
                                 </td>
 
                                 <td className='p-1 ' data-cell=" ">

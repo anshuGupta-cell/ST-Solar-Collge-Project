@@ -84,6 +84,9 @@ const Navbar = ({primaryNav}) => {
                     <li className="nav-items">
                         <Link className={`${pathName === '/conclusion' ? 'active' : ''}`} href="/conclusion"><span>Conclusion</span></Link>
                     </li>
+                    <li className="nav-items my-8">
+                        <Link className={`${pathName === '/about' ? 'active' : ''}`} href="/about"><span>About me</span></Link>
+                    </li>
                     {/* <li className="nav-items  ">
                             <button onClick={(e) => openSubMenu(e)} ref={subMenu} className="dropdown-btn active rotated ">
                                 <span>Introduction</span>

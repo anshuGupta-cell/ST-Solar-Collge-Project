@@ -1,7 +1,8 @@
 import React from 'react'
 import "./style.css"
+import Link from 'next/link'
 
-const Header = ({primaryNav}) => {
+const Header = ({ primaryNav }) => {
 
     const toggleNav = () => {
         primaryNav.current.toggleAttribute("data-visible")
@@ -18,9 +19,10 @@ const Header = ({primaryNav}) => {
                     <h1 className='text-wrap'>Virtual Solar Power System</h1>
                 </a>
             </div>
-            
-            {/* <div className="flex items-center">
-                </div> */}
+
+            {/* <div className=" px-4 py-2 border rounded-full bg-slate-100 text-slate-700 flex items-center gap-2 border-slate-700  hover:-translate-y-1 duration-300">
+                <Link href="/about">About me</Link>
+            </div> */}
         </header>
     )
 }
