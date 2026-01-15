@@ -4,9 +4,10 @@ import React from 'react'
 const SystemDiagram = () => {
   return (
     <div >
-      <section className='grid res-grid-280 p-2 gap-4 card'>
+      <h1 className='text-2xl font-semibold '>System Diagram</h1>
+      <section className='grid res-grid-280 p-2 gap-4 card my-3'>
 
-        <img className='rounded-lg object-cover' src='/profile pic.png' alt='labelled solar PV diagram' />
+        <img className='rounded-lg object-cover' src='/img/solar - working diagram .jpg' alt='labelled solar PV diagram' />
         <div>
           <h1 className='text-xl font-semibold'>System Working</h1>
           <p>Sunlight falls on the solar panel and is converted into electrical energy. The solar panel generates DC power from sunlight. The inverter converts DC power inot AC power, which is supplied to the load such as lights or electrical appliances</p>

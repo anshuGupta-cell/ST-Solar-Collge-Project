@@ -13,7 +13,7 @@ export default function App() {
           <h1 className="fs-600 font-semibold text-accent-400 text-center">Virtual Solar Power System</h1>
           <p className="text-center">The website is a virtual solar power designed to explain the basic working and calculation of a solar power system in a simple and interactive way it helps users understand how solar energy is converted into electrical energy using solar panels.</p>
         </div>
-        <div><img className="rounded-lg" src="/profile pic.png" alt="Simple solar panel image" /></div>
+        <div><img className="rounded-lg" src="/img/solar panel.jpg" alt="Simple solar panel image" /></div>
       </section>
       <section className="card">
         <h2 className="text-xl font-semibold">About Solar energy</h2>

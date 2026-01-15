@@ -15,8 +15,7 @@ const Header = ({primaryNav}) => {
                     <img className="icon-hamburger | icon" src="/svg/bars-solid.svg" alt="" aria-hidden="true" />
                 </button>
                 <a href="/">
-                    <h1>Vertual Solar Power</h1>
-                    <h1>System - Web Base Simulation</h1>
+                    <h1 className='text-wrap'>Vertual Solar Power System</h1>
                 </a>
             </div>
             
