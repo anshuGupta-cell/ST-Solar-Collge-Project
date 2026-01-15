@@ -57,8 +57,8 @@ const Calculation = () => {
         <div className=''>
           <h2 className='text-xl font-semibold'>Calculation</h2>
           <ul className='pl-4'>
-            <li>Power (w) = {sunlightIntensity == 0 ? "Sunlight Intensity" : sunlightIntensity} x {panelArea == 0 ? "Panel Area" : panelArea} x {panelEfficiency == 0 ? "Efficiency" : panelEfficiency} w</li>
-            <li>Energy (wh) = {power == 0 ? "Power" : power} x {time == 0 ? "Time" : time} wh</li>
+            <li>Power (w) = {sunlightIntensity == 0 ? "Sunlight Intensity" : sunlightIntensity} x {panelArea == 0 ? "Panel Area" : panelArea} x {panelEfficiency == 0 ? "Efficiency" : panelEfficiency}</li>
+            <li>Energy (wh) = {power == 0 ? "Power" : power} x {time == 0 ? "Time" : time}</li>
           </ul>
         </div>
         <div className=''>

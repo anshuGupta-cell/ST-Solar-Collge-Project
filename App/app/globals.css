@@ -452,3 +452,27 @@ body {
 .card:hover {
   transform: scale(1.01);
 }
+
+
+
+/* graph table  */
+.graph-table {
+  width: 100%;
+  /* max-width: 10rem; */
+  font-size: var(--fs-400);
+  background: var(--clr-neutral-100);
+  tr{
+    height: 2rem;
+    text-align: center;
+  }
+}
+
+.table-header {
+  background: var(--clr-accent-200);
+  position: sticky;
+  top: 0;
+}
+
+
+
+
