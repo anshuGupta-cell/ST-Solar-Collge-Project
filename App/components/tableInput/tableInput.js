@@ -62,7 +62,7 @@ const TableInput = (props) => {
                                 <td className=' ' data-cell=" ">
                                     <button type="button" disabled={links.length == 1} className="py-1" onClick={() => removeLink(i)}>
                                         <div className="btn transform-bg hover:bg-slate-200 p-1 rounded-full">
-                                            <img className="dark:invert object-cover rounded-full w-[0.8rem] h-[0.8rem]" src="/svg/xmark-regular.svg" alt="remove" />
+                                            <img className="icon-sm aspect-square" src="/svg/xmark-regular.svg" alt="remove" />
                                         </div>
                                     </button>
                                 </td>
