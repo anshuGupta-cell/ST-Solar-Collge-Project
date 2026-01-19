@@ -21,20 +21,20 @@ import Header from "@/components/header/Header";
 // };
 
 export default function RootLayout({ children }) {
-  const primaryNav = useRef(null)
-  return (
-    <html lang="en" className="">
-      <body className={``}>
-        {/* <clientLayout >{children}</clientLayout> */}
-        <ToastContainer />
-        <Header primaryNav={primaryNav} />
-        <div className="layout">
-          <Navbar primaryNav={primaryNav} />
-          <main className="main p-2 ">
-            {children}
-          </main>
-        </div>
-      </body>
-    </html>
-  )
+    const primaryNav = useRef(null)
+    return (
+        <html lang="en" className="">
+            <body className={``}>
+                {/* <clientLayout >{children}</clientLayout> */}
+                <ToastContainer />
+                <Header primaryNav={primaryNav} />
+                <div className="layout">
+                    <Navbar primaryNav={primaryNav} />
+                    <main className="main p-2 ">
+                        {children}
+                    </main>
+                </div>
+            </body>
+        </html>
+    )
 }

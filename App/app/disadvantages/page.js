@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Advantages = () => {
+const Disdvantages = () => {
   return (
     <div>
       <section className='card '>
@@ -34,4 +34,4 @@ const Advantages = () => {
   )
 }
 
-export default Advantages
+export default Disdvantages

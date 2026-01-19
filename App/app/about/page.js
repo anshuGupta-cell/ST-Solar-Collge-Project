@@ -13,7 +13,7 @@ const About = () => {
             <p>University - Savitribai Phule Pune University ( SPPU )</p>
             <p>Subject - Physics project</p>
             <p className=" text-center text-3xl font-medium">
-                Project Title - Virtual Solar Power System
+                Project Title - Virtual Solar PV System
             </p>
             <div className="flex gap-2">
                 <Link href="/" className=" px-4 py-2 border rounded-full bg-slate-800 text-slate-100 flex items-center gap-2  border-slate-300  hover:-translate-y-1 duration-300">
