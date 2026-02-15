@@ -39,6 +39,7 @@ This project demonstrates:
 ## 🛠 Tech Stack
 
 <p align="center">
+  
   <img src="https://skillicons.dev/icons?i=html,css,js,react" />
 </p>
 
@@ -103,16 +104,5 @@ Suggested: **MIT License**
 <p align="center">
   Made with ☀️ for learning, innovation, and sustainability.
 </p>
-"""
 
-output_path = "/mnt/data/GITHUB_PROFILE_README.md"
 
-pypandoc.convert_text(
-    profile_readme,
-    "md",
-    format="md",
-    outputfile=output_path,
-    extra_args=["--standalone"]
-)
-
-output_path
