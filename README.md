@@ -1,8 +1,7 @@
-# Generate a GitHub profile-style README with rich sections and animations
 import pypandoc
 
 profile_readme = """
-<h1 align="center">☀️ ST Solar College Project</h1>
+<h1 align="center">☀️ Virtual Solar PV System</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge&logo=react" />
