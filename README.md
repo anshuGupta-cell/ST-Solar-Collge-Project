@@ -1,6 +1,3 @@
-import pypandoc
-
-profile_readme = """
 <h1 align="center">☀️ Virtual Solar PV System</h1>
 
 <p align="center">
